@@ -10,7 +10,7 @@ import (
 )
 
 //Simple hint query graph Neo4j movie database API
-//Application is conected with database thrue official Neo4j bolt driver for Golang.
+//Application is conected with database through official Neo4j bolt driver for Golang.
 //One driver interface is created than new session for each query.
 //Database was populated from IMDB shared data.
 //Query is based on Lucene fulltext indexes, only for titles, not for persons.
