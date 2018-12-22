@@ -9,7 +9,7 @@ import (
 	"github.com/neo4j/neo4j-go-driver/neo4j"
 )
 
-//Simple hint query graph Neo4j movie database API
+//Simple hint query graph Neo4j movie database app
 //Application is conected with database through official Neo4j bolt driver for Golang.
 //One driver interface is created than new session for each query.
 //Database was populated from IMDB shared data.
