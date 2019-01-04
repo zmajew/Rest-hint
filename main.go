@@ -78,7 +78,7 @@ func hint(w http.ResponseWriter, r *http.Request) {
 func main() {
 	driver, err = neo4j.NewDriver("bolt://localhost:7687", neo4j.BasicAuth("user_name", "password", ""))
 	if err != nil {
-		log.Println("error connecting to database:", err)
+		log.Fatalln("error connecting to database:", err)
 	}
 	defer driver.Close()
 
