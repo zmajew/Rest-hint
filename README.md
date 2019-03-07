@@ -6,5 +6,4 @@ One driver interface is created than new session for each query.
 Database was populated from IMDB shared data.
 Query is based on Lucene fulltext indexes, only for titles, not for persons.
 
-In Di folder you will find the same script but with Dependency Injection approach.
 
